@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --primary-color: #ec4899; /* Default pink */
+}
+
+@layer base {
+  :root {
+    --primary: #ec4899;
+  }
+}
+
+.bg-primary { background-color: var(--primary-color); }
+.text-primary { color: var(--primary-color); }
+.border-primary { border-color: var(--primary-color); }
+.hover-bg-primary:hover { background-color: var(--primary-color); }

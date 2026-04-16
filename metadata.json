@@ -1,0 +1,5 @@
+{
+  "name": "Iris",
+  "description": "A safety and empowerment application for women.",
+  "requestFramePermissions": ["geolocation", "microphone", "camera"]
+}
